@@ -1,0 +1,76 @@
+.container{
+    padding: 80px 120px;
+}
+
+.introPics{
+    height: 300px;
+    width: 250px;
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    margin:auto;
+    
+}
+.introPics:hover{
+    border-color: antiquewhite;
+}
+
+.carousel-inner img{
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-caption h3{
+    color: #ffffff;
+}
+
+@media (max-width:600px){
+    .carousel-caption{
+        display: none;
+    }
+}
+
+#myNav{
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    border: transparent;
+}
+
+
+.bg-1{
+    background-image: url("../img/vision3.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color:black;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 160px;
+    padding-right: 160px;
+    
+    
+}   
+.bg-1 h3 p{
+    font-family: 'Eczar', bold;
+    color: black;
+}
+
+.bg-2{
+    background-color: #474e5d;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.bg-3{
+    background-color: white;
+    color: #555555;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 160px;
+    padding-right: 160px;
+}

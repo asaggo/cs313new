@@ -1,0 +1,29 @@
+#myNav{
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    border: transparent;
+    font-family: bold;
+}
+
+.section{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.subSection{
+    height: 50%;
+    background-color: white;
+}
+
+.sectionOne{
+    background-image: url(../img/parallax_bg_1.jpg);
+}
+
+.sectionTwo{
+     background-image: url(../img/work.jpg);
+}
